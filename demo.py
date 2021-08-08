@@ -32,8 +32,11 @@ if __name__ == "__main__":
     mask = LPM_filter(X, Y)
     end = time.clock()
     print("Time cost: {} seconds".format(end-start))
+	
+	
 
-
+    print("Correspondences before LPM filter, please press ESC to terminate image window")
+	
     display = draw_match(I1, I2, X, Y)
     cv2.imshow("before", display)
     # press ESC to terminate imshow
@@ -41,7 +44,8 @@ if __name__ == "__main__":
     if k == 27:
         cv2.destroyAllWindows() 
 
-
+    print("Correspondences after LPM filter, please press ESC to terminate image window")
+	
     display2 = draw_match(I1, I2, X[mask,:], Y[mask,:])
     cv2.imshow("after", display2)
     # press ESC to terminate imshow
