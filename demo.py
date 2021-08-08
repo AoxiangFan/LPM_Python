@@ -31,7 +31,7 @@ if __name__ == "__main__":
     start = time.clock()
     mask = LPM_filter(X, Y)
     end = time.clock()
-    print(end-start)
+    print("Time cost: {} seconds".format(end-start))
 
 
     display = draw_match(I1, I2, X, Y)
