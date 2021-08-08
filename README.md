@@ -21,7 +21,7 @@ If you find this code useful for your research, plese cite the paper:
 
 # USAGE
 
-Denpendencies: numpy and sklearn packages are required for the core function LPM_filter,
+Dependencies: numpy and sklearn packages are required for the core function LPM_filter,
 
 opencv-python and scipy are additionally required to run the demo.
 
