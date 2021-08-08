@@ -2,7 +2,7 @@
 
 A Python implementation of the Locality Preserving Matching (LPM) method for pruning outliers in image matching.
 
-The code is established according to the MATLAB version https://github.com/jiayi-ma/LPM and supposed to have the same output and similar time cost.
+The code is established according to the MATLAB version https://github.com/jiayi-ma/LPM and supposed to have the same output and similar time cost. The parameters are tunable inside the function LPM_filter in LPM.py.
 
 If you find this code useful for your research, plese cite the paper:
 
